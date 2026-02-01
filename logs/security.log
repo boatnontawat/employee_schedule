@@ -1,0 +1,53 @@
+[2025-11-28 08:40:10] SECURITY [failed_login] Failed login attempt for username: hradmin from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-11-28 08:40:16] SECURITY [failed_login] Failed login attempt for username: hradmin from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-11-28 08:40:18] SECURITY [failed_login] Failed login attempt for username: hradmin from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-11-28 08:41:20] SECURITY [failed_login] Failed login attempt for username: hradmin from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-11-28 11:07:17] SECURITY [failed_login] Failed login attempt for username: adminhr from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-11-30 10:25:33] SECURITY [failed_login] Failed login attempt for username: hruser1 from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-11-30 10:29:32] SECURITY [failed_login] Failed login attempt for username: hruser1 from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-11-30 12:16:28] SECURITY [failed_login] Failed login attempt for username: emp_lv3_01 from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-11-30 12:16:33] SECURITY [failed_login] Failed login attempt for username: emp_lv3_01 from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-11-30 12:16:54] SECURITY [failed_login] Failed login attempt for username: emp_lv3_01 from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-11-30 12:18:20] SECURITY [failed_login] Failed login attempt for username: emp_lv3_01 from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-11-30 12:19:49] SECURITY [failed_login] Failed login attempt for username: emp_lv3_01 from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-11-30 12:19:53] SECURITY [brute_force_detected] Brute force detected for username: emp_lv3_01 from IP: 127.0.0.1 - Attempts: 5 - IP: 127.0.0.1 - Severity: high
+[2025-11-30 12:19:58] SECURITY [brute_force_detected] Brute force detected for username: emp_lv3_01 from IP: 127.0.0.1 - Attempts: 5 - IP: 127.0.0.1 - Severity: high
+[2025-11-30 12:20:17] SECURITY [brute_force_detected] Brute force detected for username: hradmin from IP: 127.0.0.1 - Attempts: 5 - IP: 127.0.0.1 - Severity: high
+[2025-11-30 12:20:31] SECURITY [brute_force_detected] Brute force detected for username: hradmin from IP: 127.0.0.1 - Attempts: 5 - IP: 127.0.0.1 - Severity: high
+[2025-12-01 12:24:14] SECURITY [failed_login] Failed login attempt for username: emp_lv3_01 from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-12-01 12:24:19] SECURITY [failed_login] Failed login attempt for username: emp_lv3_01 from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-12-01 12:29:07] SECURITY [failed_login] Failed login attempt for username: hradmin from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-12-01 12:29:13] SECURITY [failed_login] Failed login attempt for username: hradmin from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-12-01 12:38:11] SECURITY [failed_login] Failed login attempt for username: boat from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-12-01 12:39:22] SECURITY [failed_login] Failed login attempt for username: hradmin from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-12-01 14:15:17] SECURITY [failed_login] Failed login attempt for username: ิboat from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-12-01 14:15:28] SECURITY [failed_login] Failed login attempt for username: ิboat from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-12-01 14:18:38] SECURITY [failed_login] Failed login attempt for username: hradmin from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-12-01 14:18:38] SECURITY [failed_login] Failed login attempt for username: hradmin from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-12-02 13:38:06] SECURITY [failed_login] Failed login attempt for username: boat from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-12-02 13:42:10] SECURITY [failed_login] Failed login attempt for username: headmin from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-12-02 17:34:12] SECURITY [failed_login] Failed login attempt for username: hradmin from IP: 127.0.0.1 - IP: 127.0.0.1 - Severity: medium
+[2025-12-02 17:38:09] SECURITY [failed_login] Failed login attempt for username: hr from IP: ::1 - IP: 2403:6200:8871:9e24:458e:d13:ebb7:1976 - Severity: medium
+[2025-12-02 17:39:22] SECURITY [failed_login] Failed login attempt for username: hradmin from IP: ::1 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b - Severity: medium
+[2025-12-02 17:48:14] SECURITY [failed_login] Failed login attempt for username: boat from IP: ::1 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b - Severity: medium
+[2025-12-02 18:01:46] SECURITY [failed_login] Failed login attempt for username: @0652358858Boat from IP: ::1 - IP: 110.170.76.77 - Severity: medium
+[2025-12-02 18:07:31] SECURITY [failed_login] Failed login attempt for username: headmin from IP: ::1 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b - Severity: medium
+[2025-12-03 07:20:21] SECURITY [failed_login] Failed login attempt for username: headmin from IP: ::1 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b - Severity: medium
+[2025-12-03 12:47:28] SECURITY [failed_login] Failed login attempt for username: hradmin from IP: ::1 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b - Severity: medium
+[2025-12-03 13:04:49] SECURITY [failed_login] Failed login attempt for username: it_lv3_01 from IP: ::1 - IP: 27.55.80.164 - Severity: medium
+[2025-12-08 12:29:43] SECURITY [failed_login] Failed login attempt for username: boat from IP: ::1 - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460 - Severity: medium
+[2025-12-08 12:47:55] SECURITY [failed_login] Failed login attempt for username: hradmin from IP: ::1 - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460 - Severity: medium
+[2025-12-08 12:52:26] SECURITY [failed_login] Failed login attempt for username: boat from IP: ::1 - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460 - Severity: medium
+[2025-12-10 12:07:34] SECURITY [failed_login] Failed login attempt for username: superadmin from IP: ::1 - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f - Severity: medium
+[2025-12-10 12:20:05] SECURITY [failed_login] Failed login attempt for username: superadmin from IP: ::1 - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f - Severity: medium
+[2025-12-10 12:20:08] SECURITY [failed_login] Failed login attempt for username: superadmin from IP: ::1 - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f - Severity: medium
+[2025-12-10 12:22:06] SECURITY [failed_login] Failed login attempt for username: superadmin from IP: ::1 - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f - Severity: medium
+[2025-12-10 12:22:11] SECURITY [failed_login] Failed login attempt for username: superadmin from IP: ::1 - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f - Severity: medium
+[2025-12-10 12:25:19] SECURITY [failed_login] Failed login attempt for username: superadmin from IP: ::1 - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f - Severity: medium
+[2025-12-10 12:25:26] SECURITY [failed_login] Failed login attempt for username: superadmin from IP: ::1 - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f - Severity: medium
+[2025-12-10 12:25:50] SECURITY [failed_login] Failed login attempt for username: superadmin from IP: ::1 - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f - Severity: medium
+[2025-12-10 12:26:00] SECURITY [failed_login] Failed login attempt for username: superadmin from IP: ::1 - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f - Severity: medium
+[2025-12-10 21:18:21] SECURITY [failed_login] Failed login attempt for username: boat from IP: ::1 - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9 - Severity: medium
+[2025-12-10 22:28:27] SECURITY [failed_login] Failed login attempt for username: hradmin from IP: ::1 - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9 - Severity: medium
+[2025-12-10 22:54:57] SECURITY [failed_login] Failed login attempt for username: emp_lv3_01 from IP: ::1 - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9 - Severity: medium
+[2025-12-10 23:07:42] SECURITY [failed_login] Failed login attempt for username: boat from IP: ::1 - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9 - Severity: medium

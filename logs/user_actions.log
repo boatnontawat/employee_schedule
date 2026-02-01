@@ -1,0 +1,514 @@
+[2025-11-14 19:00:35] USER_ACTION [login] User: 1 - User logged in successfully - IP: 127.0.0.1
+[2025-11-14 19:00:57] USER_ACTION [logout] User: 1 - User logged out - IP: 127.0.0.1
+[2025-11-14 19:01:04] USER_ACTION [login] User: 2 - User logged in successfully - IP: 127.0.0.1
+[2025-11-19 10:29:21] USER_ACTION [login] User: 2 - User logged in successfully - IP: 127.0.0.1
+[2025-11-19 10:37:40] USER_ACTION [schedule_rules_update] User: 2 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-19 10:37:44] USER_ACTION [schedule_rules_update] User: 2 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-19 10:37:49] USER_ACTION [schedule_generate] User: 2 - Generated 120 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-19 10:45:45] USER_ACTION [schedule_rules_update] User: 2 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-19 10:46:05] USER_ACTION [schedule_rules_update] User: 2 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-19 10:46:16] USER_ACTION [schedule_generate] User: 2 - Generated 210 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-19 10:52:44] USER_ACTION [schedule_rules_update] User: 2 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-19 10:57:10] USER_ACTION [schedule_rules_update] User: 2 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-20 10:08:06] USER_ACTION [login] User: 2 - User logged in successfully - IP: 127.0.0.1
+[2025-11-20 10:40:48] USER_ACTION [schedule_rules_update] User: 2 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-20 10:41:32] USER_ACTION [logout] User: 2 - User logged out - IP: 127.0.0.1
+[2025-11-20 10:41:38] USER_ACTION [login] User: 5 - User logged in successfully - IP: 127.0.0.1
+[2025-11-20 10:42:37] USER_ACTION [logout] User: 5 - User logged out - IP: 127.0.0.1
+[2025-11-20 10:42:44] USER_ACTION [login] User: 2 - User logged in successfully - IP: 127.0.0.1
+[2025-11-20 10:43:37] USER_ACTION [schedule_rules_update] User: 2 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-20 11:32:00] USER_ACTION [logout] User: 2 - User logged out - IP: 127.0.0.1
+[2025-11-20 11:32:52] USER_ACTION [login] User: 2 - User logged in successfully - IP: 127.0.0.1
+[2025-11-20 11:33:03] USER_ACTION [future_leave_approved] User: 2 - approved future leave request ID: 1 - IP: 127.0.0.1
+[2025-11-20 11:33:03] USER_ACTION [notification_sent] User: 3 - Notification sent to user 3: คำขอลาล่วงหน้าของคุณได้รับการอนุมัติ โดยผู้ดูแล - IP: 127.0.0.1
+[2025-11-20 11:33:46] USER_ACTION [schedule_rules_update] User: 2 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-20 13:13:56] USER_ACTION [login] User: 1 - User logged in successfully - IP: 127.0.0.1
+[2025-11-20 13:41:21] USER_ACTION [logout] User: 1 - User logged out - IP: 127.0.0.1
+[2025-11-20 13:41:49] USER_ACTION [login] User: 5 - User logged in successfully - IP: 127.0.0.1
+[2025-11-20 14:31:19] USER_ACTION [logout] User: 5 - User logged out - IP: 127.0.0.1
+[2025-11-20 14:31:27] USER_ACTION [login] User: 2 - User logged in successfully - IP: 127.0.0.1
+[2025-11-20 14:31:40] USER_ACTION [logout] User: 2 - User logged out - IP: 127.0.0.1
+[2025-11-20 14:31:45] USER_ACTION [login] User: 5 - User logged in successfully - IP: 127.0.0.1
+[2025-11-20 14:49:57] USER_ACTION [logout] User: 5 - User logged out - IP: 127.0.0.1
+[2025-11-20 14:50:04] USER_ACTION [login] User: 5 - User logged in successfully - IP: 127.0.0.1
+[2025-11-20 14:51:57] USER_ACTION [logout] User: 5 - User logged out - IP: 127.0.0.1
+[2025-11-20 14:52:05] USER_ACTION [login] User: 2 - User logged in successfully - IP: 127.0.0.1
+[2025-11-20 14:53:12] USER_ACTION [schedule_rules_update] User: 2 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-26 12:05:50] USER_ACTION [login] User: 2 - User logged in successfully - IP: 127.0.0.1
+[2025-11-27 20:06:23] USER_ACTION [login] User: 2 - User logged in successfully - IP: 127.0.0.1
+[2025-11-27 20:06:59] USER_ACTION [schedule_rules_update] User: 2 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-27 20:26:17] USER_ACTION [schedule_rules_update] User: 2 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-27 21:36:44] USER_ACTION [schedule_rules_update] User: 2 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-27 21:36:51] USER_ACTION [schedule_rules_update] User: 2 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-27 21:39:06] USER_ACTION [logout] User: 2 - User logged out - IP: 127.0.0.1
+[2025-11-28 08:42:24] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-28 08:44:16] USER_ACTION [schedule_rules_update] User: 193 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-28 08:53:06] USER_ACTION [schedule_rules_update] User: 193 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-28 09:04:31] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-28 11:07:51] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-28 11:10:25] USER_ACTION [schedule_generate] User: 193 - Generated 749 schedules for 2025-12 - IP: 127.0.0.1
+[2025-11-28 11:24:40] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-28 11:36:24] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-11-28 11:38:40] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-28 12:33:00] USER_ACTION [schedule_rules_update] User: 193 - update schedule rules for department ID: 1 - IP: 127.0.0.1
+[2025-11-29 17:25:03] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-29 18:02:42] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-11-29 18:02:49] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-29 18:47:42] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-29 18:47:46] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-29 18:52:21] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-29 18:52:34] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-29 18:53:24] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-29 18:53:59] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-29 19:07:20] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-29 19:07:23] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-29 19:07:25] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-29 20:32:05] USER_ACTION [session_timeout] User: 193 - Session expired due to inactivity - IP: 127.0.0.1
+[2025-11-29 20:32:12] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-29 20:32:16] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-29 21:15:18] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-29 21:15:21] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-29 21:21:32] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-30 09:06:06] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-30 09:06:11] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-30 09:06:14] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-30 09:06:27] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-30 09:06:30] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-30 09:08:46] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-30 09:08:54] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-30 09:09:01] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-30 09:20:05] USER_ACTION [schedule_generate] User: 193 - Generated 749 schedules for 2025-10 - IP: 127.0.0.1
+[2025-11-30 09:27:08] USER_ACTION [schedule_generate] User: 193 - Generated 749 schedules for 2025-12 - IP: 127.0.0.1
+[2025-11-30 09:32:13] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-11-30 09:32:19] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-30 09:36:00] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules for 2025-11 - IP: 127.0.0.1
+[2025-11-30 09:36:07] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-11-30 09:43:04] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-30 09:45:21] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-11-30 09:48:04] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-30 09:48:11] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-11-30 09:48:23] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-30 10:21:23] USER_ACTION [schedule_generate] User: 193 - Generated 700 schedules - IP: 127.0.0.1
+[2025-11-30 10:23:49] USER_ACTION [schedule_generate] User: 193 - Generated 740 schedules - IP: 127.0.0.1
+[2025-11-30 10:23:54] USER_ACTION [schedule_generate] User: 193 - Generated 740 schedules - IP: 127.0.0.1
+[2025-11-30 10:25:01] USER_ACTION [schedule_generate] User: 193 - Generated 740 schedules - IP: 127.0.0.1
+[2025-11-30 10:25:18] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-11-30 10:29:41] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-30 11:27:20] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-30 11:45:56] USER_ACTION [schedule_generate] User: 193 - Generated 740 schedules - IP: 127.0.0.1
+[2025-11-30 11:46:06] USER_ACTION [schedule_generate] User: 193 - Generated 740 schedules - IP: 127.0.0.1
+[2025-11-30 12:11:13] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-11-30 12:11:21] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-30 12:11:29] USER_ACTION [schedule_generate] User: 193 - Generated 740 schedules - IP: 127.0.0.1
+[2025-11-30 12:11:33] USER_ACTION [schedule_generate] User: 193 - Generated 740 schedules - IP: 127.0.0.1
+[2025-11-30 12:12:08] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-11-30 12:15:39] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-30 12:16:25] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-11-30 12:21:54] USER_ACTION [login] User: 194 - User logged in successfully - IP: 127.0.0.1
+[2025-11-30 16:08:03] USER_ACTION [login] User: 194 - User logged in successfully - IP: 127.0.0.1
+[2025-11-30 16:14:09] USER_ACTION [logout] User: 194 - User logged out - IP: 127.0.0.1
+[2025-11-30 16:15:05] USER_ACTION [login] User: 194 - User logged in successfully - IP: 127.0.0.1
+[2025-11-30 16:26:38] USER_ACTION [logout] User: 194 - User logged out - IP: 127.0.0.1
+[2025-11-30 16:26:46] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-30 20:56:00] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-11-30 20:56:57] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-11-30 20:57:27] USER_ACTION [login] User: 194 - User logged in successfully - IP: 127.0.0.1
+[2025-11-30 22:07:27] USER_ACTION [session_timeout] User: 194 - Session expired due to inactivity - IP: 127.0.0.1
+[2025-11-30 22:07:53] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 09:53:50] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 09:56:40] USER_ACTION [schedule_generate] User: 193 - Generated 795 schedules - IP: 127.0.0.1
+[2025-12-01 09:57:14] USER_ACTION [schedule_generate] User: 193 - Generated 795 schedules - IP: 127.0.0.1
+[2025-12-01 09:59:24] USER_ACTION [schedule_generate] User: 193 - Generated 795 schedules - IP: 127.0.0.1
+[2025-12-01 10:27:27] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules - IP: 127.0.0.1
+[2025-12-01 10:51:40] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules - IP: 127.0.0.1
+[2025-12-01 10:58:49] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-01 10:59:02] USER_ACTION [login] User: 194 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 11:03:50] USER_ACTION [logout] User: 194 - User logged out - IP: 127.0.0.1
+[2025-12-01 11:03:56] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 11:08:09] USER_ACTION [schedule_generate] User: 193 - Generated 782 schedules - IP: 127.0.0.1
+[2025-12-01 11:18:52] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-01 11:19:03] USER_ACTION [login] User: 194 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 11:43:41] USER_ACTION [logout] User: 194 - User logged out - IP: 127.0.0.1
+[2025-12-01 11:43:50] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 11:46:55] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-01 11:47:04] USER_ACTION [login] User: 194 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 11:47:30] USER_ACTION [logout] User: 194 - User logged out - IP: 127.0.0.1
+[2025-12-01 11:47:38] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 11:54:11] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules - IP: 127.0.0.1
+[2025-12-01 11:54:19] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules - IP: 127.0.0.1
+[2025-12-01 12:16:12] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-01 12:16:18] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 12:19:10] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-01 12:24:29] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 12:24:34] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-01 12:24:44] USER_ACTION [login] User: 194 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 12:24:48] USER_ACTION [logout] User: 194 - User logged out - IP: 127.0.0.1
+[2025-12-01 12:26:46] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 12:26:48] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-01 12:29:17] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 12:29:18] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-01 12:35:18] USER_ACTION [user_register] User: 240 - User registered: boat (นนทวัฒน์ เดือนจำรูญ) - Level: 3 - IP: 127.0.0.1
+[2025-12-01 12:35:28] USER_ACTION [login] User: 240 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 12:35:43] USER_ACTION [logout] User: 240 - User logged out - IP: 127.0.0.1
+[2025-12-01 12:37:09] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 12:37:15] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules - IP: 127.0.0.1
+[2025-12-01 12:38:00] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-01 12:38:18] USER_ACTION [login] User: 240 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 12:39:07] USER_ACTION [logout] User: 240 - User logged out - IP: 127.0.0.1
+[2025-12-01 12:39:26] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 12:40:17] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-01 12:42:09] USER_ACTION [login] User: 240 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 13:23:27] USER_ACTION [login] User: 240 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 13:24:05] USER_ACTION [login] User: 194 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 13:30:05] USER_ACTION [logout] User: 240 - User logged out - IP: 127.0.0.1
+[2025-12-01 13:31:04] USER_ACTION [login] User: 194 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 13:31:59] USER_ACTION [login] User: 240 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 14:10:18] USER_ACTION [logout] User: 194 - User logged out - IP: 127.0.0.1
+[2025-12-01 14:10:27] USER_ACTION [login] User: 240 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 14:11:16] USER_ACTION [logout] User: 240 - User logged out - IP: 127.0.0.1
+[2025-12-01 14:11:30] USER_ACTION [login] User: 194 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 14:11:51] USER_ACTION [logout] User: 194 - User logged out - IP: 127.0.0.1
+[2025-12-01 14:12:06] USER_ACTION [login] User: 240 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 14:14:46] USER_ACTION [logout] User: 240 - User logged out - IP: 127.0.0.1
+[2025-12-01 14:14:52] USER_ACTION [login] User: 194 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 14:15:02] USER_ACTION [logout] User: 194 - User logged out - IP: 127.0.0.1
+[2025-12-01 14:15:42] USER_ACTION [login] User: 240 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 14:17:17] USER_ACTION [logout] User: 240 - User logged out - IP: 127.0.0.1
+[2025-12-01 14:17:27] USER_ACTION [login] User: 194 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 14:17:44] USER_ACTION [logout] User: 194 - User logged out - IP: 127.0.0.1
+[2025-12-01 14:17:52] USER_ACTION [login] User: 240 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 14:18:28] USER_ACTION [logout] User: 240 - User logged out - IP: 127.0.0.1
+[2025-12-01 14:18:42] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 14:19:00] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-01 14:19:07] USER_ACTION [login] User: 194 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 14:21:07] USER_ACTION [logout] User: 194 - User logged out - IP: 127.0.0.1
+[2025-12-01 14:21:16] USER_ACTION [login] User: 240 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 14:22:43] USER_ACTION [logout] User: 240 - User logged out - IP: 127.0.0.1
+[2025-12-01 14:22:53] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 14:32:49] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-01 14:33:59] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 14:34:53] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-01 14:35:00] USER_ACTION [login] User: 194 - User logged in successfully - IP: 127.0.0.1
+[2025-12-01 14:35:40] USER_ACTION [logout] User: 194 - User logged out - IP: 127.0.0.1
+[2025-12-02 13:14:21] USER_ACTION [login] User: 240 - User logged in successfully - IP: 127.0.0.1
+[2025-12-02 13:17:22] USER_ACTION [logout] User: 240 - User logged out - IP: 127.0.0.1
+[2025-12-02 13:17:28] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-02 13:24:06] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-02 13:24:19] USER_ACTION [login] User: 194 - User logged in successfully - IP: 127.0.0.1
+[2025-12-02 13:25:57] USER_ACTION [logout] User: 194 - User logged out - IP: 127.0.0.1
+[2025-12-02 13:26:02] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-02 13:35:33] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-02 13:35:46] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-02 13:37:39] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-02 13:37:51] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-02 13:37:57] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-02 13:38:12] USER_ACTION [login] User: 240 - User logged in successfully - IP: 127.0.0.1
+[2025-12-02 13:41:12] USER_ACTION [logout] User: 240 - User logged out - IP: 127.0.0.1
+[2025-12-02 13:41:20] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-02 13:41:33] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-02 13:42:15] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-02 13:46:58] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-02 13:59:25] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 13:59:53] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 13:59:57] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 14:01:51] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:dd1f:4572:36cb:fce9
+[2025-12-02 17:28:06] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-02 17:32:03] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-02 17:34:15] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-02 17:38:16] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:458e:d13:ebb7:1976
+[2025-12-02 17:39:26] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 17:39:38] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:458e:d13:ebb7:1976
+[2025-12-02 17:39:50] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:458e:d13:ebb7:1976
+[2025-12-02 17:40:44] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:458e:d13:ebb7:1976
+[2025-12-02 17:48:01] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 17:48:21] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 17:50:41] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 17:50:54] USER_ACTION [login] User: 194 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 18:00:31] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:458e:d13:ebb7:1976
+[2025-12-02 18:02:06] USER_ACTION [login] User: 240 - User logged in successfully - IP: 110.170.76.77
+[2025-12-02 18:07:22] USER_ACTION [logout] User: 194 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 18:07:38] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 18:16:47] USER_ACTION [login] User: 240 - User logged in successfully - IP: 49.237.46.116
+[2025-12-02 18:17:18] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:458e:d13:ebb7:1976
+[2025-12-02 19:06:14] USER_ACTION [report_generate] User: 193 - Generated scan report - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:06:30] USER_ACTION [report_generate] User: 193 - Generated swap report - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:12:50] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules for 2025-12 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:13:07] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules for 2025-12 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:18:54] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules for 2025-12 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:23:07] USER_ACTION [login] User: 240 - User logged in successfully - IP: 49.228.240.132
+[2025-12-02 19:28:07] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 19:32:51] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules for 2025-12 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:33:06] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules for 2025-12 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:33:15] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules for 2025-12 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:33:52] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules for 2025-12 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:34:21] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:34:27] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:34:50] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:44:04] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:44:08] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:44:12] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:44:30] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:44:37] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:44:49] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:44:57] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:45:12] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:45:27] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:46:55] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 19:51:48] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 19:59:40] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 20:03:46] USER_ACTION [logout] User: 240 - User logged out - IP: 171.6.237.92
+[2025-12-02 20:04:13] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 20:06:34] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 20:06:44] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 20:11:06] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 20:15:43] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 20:16:00] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 20:19:52] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 20:20:01] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 20:20:52] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 20:21:04] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 20:21:35] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 20:22:13] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 20:32:26] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 21:04:29] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 21:04:38] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 21:15:25] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 21:15:32] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 21:16:23] USER_ACTION [schedule_generate] User: 193 - Generated 756 schedules - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 21:23:13] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 21:23:24] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 21:36:50] USER_ACTION [schedule_generate] User: 193 - Generated 778 schedules - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 21:40:37] USER_ACTION [future_leave_request] User: 193 - Requested future leave from 2026-02-05 to 2026-02-10 (vacation) - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 21:50:43] USER_ACTION [future_leave_request] User: 193 - Requested future leave from 2026-02-05 to 2026-02-10 (vacation) - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 21:53:15] USER_ACTION [future_leave_request] User: 193 - Requested future leave from 2026-02-05 to 2026-02-10 (vacation) - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 21:54:52] USER_ACTION [future_leave_rejected] User: 193 - rejected future leave request ID: 4 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 21:54:54] USER_ACTION [future_leave_rejected] User: 193 - rejected future leave request ID: 3 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 21:54:56] USER_ACTION [future_leave_approved] User: 193 - approved future leave request ID: 5 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 21:55:04] USER_ACTION [future_leave_rejected] User: 193 - rejected future leave request ID: 3 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 22:01:37] USER_ACTION [schedule_generate] User: 193 - Generated 778 schedules - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 22:01:39] USER_ACTION [schedule_generate] User: 193 - Generated 778 schedules - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 22:02:01] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 22:02:14] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 22:02:41] USER_ACTION [future_leave_request] User: 240 - Requested future leave from 2025-12-11 to 2025-12-19 (vacation) - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 22:03:01] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 22:03:17] USER_ACTION [future_leave_approved] User: 193 - approved future leave request ID: 6 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 22:06:39] USER_ACTION [schedule_generate] User: 193 - Generated 778 schedules - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 22:10:55] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 22:11:37] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:64b9:e27f:31a5:ef9
+[2025-12-02 22:13:28] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-02 22:13:33] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 07:20:29] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 07:36:01] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 07:36:08] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 08:16:18] USER_ACTION [login] User: 240 - User logged in successfully - IP: 27.55.80.164
+[2025-12-03 08:18:29] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 08:23:44] USER_ACTION [login] User: 241 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 08:28:58] USER_ACTION [future_leave_request] User: 241 - Requested future leave from 2025-12-25 to 2025-12-31 (personal) - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 08:29:27] USER_ACTION [future_leave_approved] User: 241 - approved future leave request ID: 3 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 08:55:07] USER_ACTION [login] User: 246 - User logged in successfully - IP: 27.55.80.164
+[2025-12-03 08:56:09] USER_ACTION [future_leave_request] User: 246 - Requested future leave from 2025-12-18 to 2025-12-23 (personal) - IP: 27.55.80.164
+[2025-12-03 09:04:21] USER_ACTION [future_leave_request] User: 246 - Requested future leave from 2025-12-18 to 2025-12-23 (personal) - IP: 27.55.80.164
+[2025-12-03 09:16:07] USER_ACTION [future_leave_request] User: 246 - Requested future leave from 2025-12-10 to 2025-12-15 (vacation) - IP: 27.55.80.164
+[2025-12-03 09:16:26] USER_ACTION [future_leave_request] User: 246 - Requested future leave from 2025-12-10 to 2025-12-15 (vacation) - IP: 27.55.80.164
+[2025-12-03 09:16:41] USER_ACTION [logout] User: 241 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:18:08] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:30:00] USER_ACTION [future_leave_request] User: 246 - Requested future leave from 2025-12-10 to 2025-12-15 (vacation) - IP: 27.55.80.164
+[2025-12-03 09:36:17] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:36:39] USER_ACTION [login] User: 241 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:54:24] USER_ACTION [swap_request_rejected] User: 241 - rejected swap request ID: 12 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:54:25] USER_ACTION [swap_request_rejected] User: 241 - rejected swap request ID: 11 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:54:25] USER_ACTION [swap_request_rejected] User: 241 - rejected swap request ID: 10 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:54:26] USER_ACTION [swap_request_rejected] User: 241 - rejected swap request ID: 8 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:54:27] USER_ACTION [swap_request_rejected] User: 241 - rejected swap request ID: 6 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:54:30] USER_ACTION [future_leave_rejected] User: 241 - rejected future leave request ID: 4 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:54:37] USER_ACTION [future_leave_rejected] User: 241 - rejected future leave request ID: 5 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:54:38] USER_ACTION [swap_request_rejected] User: 241 - rejected swap request ID: 7 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:54:39] USER_ACTION [swap_request_approved] User: 241 - approved swap request ID: 5 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:54:40] USER_ACTION [future_leave_approved] User: 241 - approved future leave request ID: 7 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:54:42] USER_ACTION [future_leave_rejected] User: 241 - rejected future leave request ID: 6 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:55:08] USER_ACTION [future_leave_rejected] User: 241 - rejected future leave request ID: 8 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:55:11] USER_ACTION [future_leave_rejected] User: 241 - rejected future leave request ID: 8 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 09:57:31] USER_ACTION [future_leave_request] User: 246 - Requested future leave from 2026-01-01 to 2026-01-05 (personal) - IP: 27.55.80.164
+[2025-12-03 09:57:36] USER_ACTION [future_leave_request] User: 246 - Requested future leave from 2026-01-01 to 2026-01-05 (personal) - IP: 27.55.80.164
+[2025-12-03 10:03:35] USER_ACTION [logout] User: 241 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 10:03:45] USER_ACTION [login] User: 241 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 10:07:55] USER_ACTION [future_leave_approved] User: 241 - approved future leave request ID: 10 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 10:07:59] USER_ACTION [future_leave_rejected] User: 241 - rejected future leave request ID: 9 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 10:08:21] USER_ACTION [future_leave_request] User: 246 - Requested future leave from 2026-01-01 to 2026-01-05 (personal) - IP: 27.55.80.164
+[2025-12-03 10:13:41] USER_ACTION [swap_request_rejected] User: 241 - rejected swap request ID: 13 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 10:13:42] USER_ACTION [future_leave_rejected] User: 241 - rejected future leave request ID: 11 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 10:14:11] USER_ACTION [logout] User: 246 - User logged out - IP: 27.55.80.164
+[2025-12-03 10:14:38] USER_ACTION [login] User: 273 - User logged in successfully - IP: 27.55.80.164
+[2025-12-03 10:16:09] USER_ACTION [future_leave_request] User: 273 - Requested future leave from 2026-01-01 to 2026-01-05 (vacation) - IP: 27.55.80.164
+[2025-12-03 10:17:16] USER_ACTION [future_leave_approved] User: 241 - approved future leave request ID: 12 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 10:17:34] USER_ACTION [logout] User: 241 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 10:17:41] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 10:17:43] USER_ACTION [logout] User: 273 - User logged out - IP: 27.55.80.164
+[2025-12-03 10:17:54] USER_ACTION [login] User: 240 - User logged in successfully - IP: 27.55.80.164
+[2025-12-03 10:25:36] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 12:17:29] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 12:18:31] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 12:18:44] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 12:26:22] USER_ACTION [login] User: 194 - User logged in successfully - IP: 27.55.80.164
+[2025-12-03 12:47:23] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 12:47:31] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 12:48:11] USER_ACTION [login] User: 194 - User logged in successfully - IP: 27.55.80.164
+[2025-12-03 12:49:18] USER_ACTION [swap_request_rejected] User: 193 - rejected swap request ID: 17 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 12:49:19] USER_ACTION [swap_request_rejected] User: 193 - rejected swap request ID: 18 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 12:50:59] USER_ACTION [future_leave_request] User: 194 - Requested future leave from 2025-12-17 to 2025-12-25 (vacation) - IP: 27.55.80.164
+[2025-12-03 12:51:24] USER_ACTION [future_leave_approved] User: 193 - approved future leave request ID: 13 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 12:51:36] USER_ACTION [swap_request_rejected] User: 193 - rejected swap request ID: 19 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 12:56:52] USER_ACTION [swap_request_rejected] User: 193 - rejected swap request ID: 20 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 12:56:53] USER_ACTION [swap_request_rejected] User: 193 - rejected swap request ID: 21 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 13:03:37] USER_ACTION [logout] User: 194 - User logged out - IP: 27.55.80.164
+[2025-12-03 13:05:10] USER_ACTION [login] User: 250 - User logged in successfully - IP: 27.55.80.164
+[2025-12-03 13:05:19] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 13:05:24] USER_ACTION [login] User: 241 - User logged in successfully - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 13:09:29] USER_ACTION [swap_request_rejected] User: 241 - rejected swap request ID: 26 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 13:09:29] USER_ACTION [swap_request_rejected] User: 241 - rejected swap request ID: 25 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 13:09:31] USER_ACTION [swap_request_rejected] User: 241 - rejected swap request ID: 15 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 13:09:32] USER_ACTION [swap_request_rejected] User: 241 - rejected swap request ID: 14 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 13:10:03] USER_ACTION [future_leave_request] User: 250 - Requested future leave from 2025-12-10 to 2025-12-19 (vacation) - IP: 27.55.80.164
+[2025-12-03 13:10:26] USER_ACTION [future_leave_approved] User: 241 - approved future leave request ID: 14 - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-03 13:11:17] USER_ACTION [logout] User: 241 - User logged out - IP: 2403:6200:8871:9e24:659d:e813:3691:c37b
+[2025-12-08 12:12:21] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:12:32] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:12:46] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:13:57] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:14:03] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:14:41] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:14:50] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:15:25] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:15:30] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:16:06] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:16:15] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:19:55] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:19:59] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:29:34] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:29:51] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:30:24] USER_ACTION [future_leave_request] User: 240 - Requested future leave from 2025-12-10 to 2025-12-23 (vacation) - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:30:29] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:30:33] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:39:19] USER_ACTION [swap_request_rejected] User: 193 - rejected swap request ID: 30 - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:39:21] USER_ACTION [swap_request_rejected] User: 193 - rejected swap request ID: 29 - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:39:23] USER_ACTION [future_leave_rejected] User: 193 - rejected future leave request ID: 15 - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:39:24] USER_ACTION [swap_request_rejected] User: 193 - rejected swap request ID: 23 - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:39:25] USER_ACTION [swap_request_rejected] User: 193 - rejected swap request ID: 24 - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:39:27] USER_ACTION [swap_request_rejected] User: 193 - rejected swap request ID: 27 - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:39:32] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:47:59] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:48:06] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:52:32] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:52:48] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 12:52:52] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 13:03:22] USER_ACTION [login] User: 240 - User logged in successfully - IP: 49.237.177.38
+[2025-12-08 13:04:02] USER_ACTION [logout] User: 240 - User logged out - IP: 49.237.177.38
+[2025-12-08 13:05:27] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 13:05:36] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 13:05:53] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 13:22:58] USER_ACTION [login] User: 193 - User logged in successfully - IP: 49.237.177.38
+[2025-12-08 16:32:10] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 16:32:25] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 16:32:37] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 16:32:42] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 16:33:54] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 16:34:37] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 16:34:44] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 16:39:20] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:bc7e:58c:196c:7460
+[2025-12-08 20:41:37] USER_ACTION [login] User: 193 - User logged in successfully - IP: 127.0.0.1
+[2025-12-08 20:42:42] USER_ACTION [logout] User: 193 - User logged out - IP: 127.0.0.1
+[2025-12-09 23:25:40] USER_ACTION [login] User: 246 - User logged in successfully - IP: 2403:6200:8871:9e24:e50e:649c:8b86:e270
+[2025-12-09 23:26:44] USER_ACTION [login] User: 241 - User logged in successfully - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f
+[2025-12-09 23:34:01] USER_ACTION [logout] User: 241 - User logged out - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f
+[2025-12-10 11:52:28] USER_ACTION [login] User: 241 - User logged in successfully - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f
+[2025-12-10 12:07:26] USER_ACTION [logout] User: 241 - User logged out - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f
+[2025-12-10 12:08:37] USER_ACTION [login] User: 241 - User logged in successfully - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f
+[2025-12-10 12:19:19] USER_ACTION [logout] User: 241 - User logged out - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f
+[2025-12-10 12:27:00] USER_ACTION [user_register] User: 306 - User registered: view (เพชรมณี ยิ้มสิทธิ์) - Level: 3 - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f
+[2025-12-10 12:27:37] USER_ACTION [login] User: 306 - User logged in successfully - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f
+[2025-12-10 12:27:56] USER_ACTION [department_create] User: 306 - Created new department: med - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f
+[2025-12-10 12:28:15] USER_ACTION [department_delete] User: 306 - Deleted department ID: 6 - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f
+[2025-12-10 12:28:32] USER_ACTION [department_create] User: 306 - Created new department: med - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f
+[2025-12-10 12:28:32] USER_ACTION [department_delete] User: 306 - Deleted department ID: 6 - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f
+[2025-12-10 12:28:36] USER_ACTION [department_create] User: 306 - Created new department: med - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f
+[2025-12-10 12:28:36] USER_ACTION [department_delete] User: 306 - Deleted department ID: 6 - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f
+[2025-12-10 12:28:38] USER_ACTION [department_delete] User: 306 - Deleted department ID: 7 - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f
+[2025-12-10 12:45:57] USER_ACTION [logout] User: 306 - User logged out - IP: 2403:6200:8871:9e24:cd12:ef6e:94ae:8a6f
+[2025-12-10 20:55:52] USER_ACTION [login] User: 241 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:18:12] USER_ACTION [logout] User: 241 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:18:47] USER_ACTION [login] User: 194 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:22:10] USER_ACTION [logout] User: 194 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:22:21] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:23:25] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:25:22] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:26:14] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:26:45] USER_ACTION [login] User: 273 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:28:44] USER_ACTION [logout] User: 273 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:28:52] USER_ACTION [login] User: 241 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:29:42] USER_ACTION [logout] User: 241 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:29:48] USER_ACTION [login] User: 273 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:31:18] USER_ACTION [sick_leave_request] User: 273 - Requested sick leave from 2025-12-05 to 2025-12-11 - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:51:54] USER_ACTION [future_leave_request] User: 273 - Requested future leave from 2025-12-12 to 2025-12-16 (vacation) - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:52:30] USER_ACTION [logout] User: 273 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:52:37] USER_ACTION [login] User: 241 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:53:03] USER_ACTION [leave_request_approved] User: 241 - approved leave request ID: 3 - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 21:58:03] USER_ACTION [future_leave_approved] User: 241 - approved future leave request ID: 16 - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 22:00:29] USER_ACTION [logout] User: 241 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 22:00:38] USER_ACTION [login] User: 306 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 22:02:49] USER_ACTION [logout] User: 306 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 22:04:43] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 22:11:03] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 22:11:10] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 22:28:18] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 22:28:31] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 22:29:57] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:3d1e:1e48:8454:6fcd
+[2025-12-10 22:33:47] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 22:33:59] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 22:45:38] USER_ACTION [swap_request_rejected] User: 193 - rejected swap request ID: 36 - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 22:54:52] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 22:55:00] USER_ACTION [login] User: 194 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 22:55:30] USER_ACTION [future_leave_request] User: 194 - Requested future leave from 2025-12-12 to 2025-12-17 (vacation) - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 22:55:33] USER_ACTION [logout] User: 194 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 22:55:37] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:03:37] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:03:43] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:04:21] USER_ACTION [login] User: 194 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:07:31] USER_ACTION [logout] User: 194 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:07:51] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:08:13] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:08:22] USER_ACTION [login] User: 194 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:08:28] USER_ACTION [logout] User: 194 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:08:38] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:13:18] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:23:29] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:23:36] USER_ACTION [login] User: 194 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:24:08] USER_ACTION [logout] User: 194 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:24:12] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:24:29] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:24:38] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:25:20] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:25:27] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:30:02] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:32:31] USER_ACTION [logout] User: 240 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:32:39] USER_ACTION [login] User: 194 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:33:15] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:33:19] USER_ACTION [logout] User: 194 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-10 23:34:05] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-11 00:03:36] USER_ACTION [future_leave_rejected] User: 193 - rejected future leave request ID: 17 - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-11 00:03:41] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-11 00:03:48] USER_ACTION [login] User: 273 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-11 00:08:57] USER_ACTION [login] User: 240 - User logged in successfully - IP: 2403:6200:8871:9e24:3d1e:1e48:8454:6fcd
+[2025-12-11 00:15:39] USER_ACTION [logout] User: 273 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-11 00:15:45] USER_ACTION [login] User: 193 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-11 00:15:50] USER_ACTION [logout] User: 193 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-11 00:15:56] USER_ACTION [login] User: 241 - User logged in successfully - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-11 00:16:18] USER_ACTION [swap_request_approved] User: 241 - approved swap request ID: 50 - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-11 00:17:16] USER_ACTION [logout] User: 241 - User logged out - IP: 2403:6200:8871:9e24:31aa:6340:3bfa:8aa9
+[2025-12-11 09:50:48] USER_ACTION [login] User: 193 - User logged in successfully - IP: ::1
+[2025-12-11 09:51:19] USER_ACTION [logout] User: 193 - User logged out - IP: ::1
+[2025-12-11 09:51:25] USER_ACTION [login] User: 194 - User logged in successfully - IP: ::1
+[2025-12-11 09:52:37] USER_ACTION [logout] User: 194 - User logged out - IP: ::1
+[2025-12-11 09:52:45] USER_ACTION [login] User: 193 - User logged in successfully - IP: ::1
+[2025-12-11 09:53:09] USER_ACTION [logout] User: 193 - User logged out - IP: ::1
+[2025-12-11 09:53:12] USER_ACTION [login] User: 194 - User logged in successfully - IP: ::1
+[2025-12-11 09:55:27] USER_ACTION [logout] User: 194 - User logged out - IP: ::1
