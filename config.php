@@ -8,8 +8,8 @@
 // 2. Constants & Settings
 // ตั้งค่า Database (TiDB Cloud)
 define('DB_SERVER', 'gateway01.ap-southeast-1.prod.aws.tidbcloud.com');
-define('DB_USERNAME', '282VmfzaNWZswLE.root');
-define('DB_PASSWORD', '38ZlZyuoeY9tWGZ3');
+define('DB_USERNAME', '3WUQLTeLKsCs6W4.root');
+define('DB_PASSWORD', 'wknpq6pvH9P0rVdH');
 define('DB_NAME', 'test'); // หรือชื่อ DB ที่คุณใช้จริง
 define('DB_PORT', 4000);
 
@@ -240,3 +240,4 @@ function customErrorHandler($errno, $errstr, $errfile, $errline) {
 }
 
 set_error_handler("customErrorHandler");
+
