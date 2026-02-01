@@ -1,26 +1,23 @@
 <?php
 class Logger {
-    private $logPath;
     private $db;
     
     public function __construct($db = null) {
-        $this->logPath = __DIR__ . '/../logs/';
         $this->db = $db;
-        
-        // สร้างโฟลเดอร์ logs ถ้ายังไม่มี
-        if (!is_dir($this->logPath)) {
-            mkdir($this->logPath, 0755, true);
-        }
+        // ลบส่วนที่สั่งสร้างโฟลเดอร์ mkdir ออก เพราะเราจะไม่เขียนไฟล์ลงเครื่องแล้ว
     }
     
-    // บันทึก Log ลงไฟล์
+    // เปลี่ยนฟังก์ชันนี้ให้ส่ง Log เข้า System แทนการเขียนไฟล์
     private function writeToFile($filename, $message) {
+        // ใช้ error_log() แทน file_put_contents()
+        // Log จะไปโผล่ใน Dashboard ของ Render แทน ซึ่งปลอดภัยและไม่มีปัญหา Permission
+        
         $timestamp = date('Y-m-d H:i:s');
-        $logMessage = "[{$timestamp}] {$message}" . PHP_EOL;
-        file_put_contents($this->logPath . $filename, $logMessage, FILE_APPEND | LOCK_EX);
+        // รูปแบบข้อความ: [ชื่อไฟล์] ข้อความ
+        error_log("[{$filename}] {$message}");
     }
     
-    // บันทึก Log ลงฐานข้อมูล
+    // บันทึก Log ลงฐานข้อมูล (ส่วนนี้ใช้ได้ปกติ ไม่ต้องแก้)
     private function writeToDatabase($data) {
         if (!$this->db) return false;
         
@@ -28,6 +25,12 @@ class Logger {
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         
         $stmt = mysqli_prepare($this->db, $sql);
+        if (!$stmt) {
+             // ถ้า Database มีปัญหา ให้ Log ไว้ดูแต่อย่าให้เว็บพัง
+             error_log("Logger DB Error: " . mysqli_error($this->db));
+             return false;
+        }
+
         mysqli_stmt_bind_param($stmt, "isssssisss", 
             $data['user_id'],
             $data['action_type'],
@@ -51,7 +54,7 @@ class Logger {
         $ip = $this->getClientIP();
         $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown';
         
-        // บันทึกลงไฟล์
+        // ส่งเข้า System Log
         $fileMessage = "USER_ACTION [{$action}] User: {$userId} - {$description} - IP: {$ip}";
         $this->writeToFile('user_actions.log', $fileMessage);
         
@@ -77,7 +80,7 @@ class Logger {
         $ip = $this->getClientIP();
         $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown';
         
-        // บันทึกลงไฟล์
+        // ส่งเข้า System Log
         $fileMessage = "SECURITY [{$eventType}] {$description} - IP: {$ip} - Severity: {$severity}";
         $this->writeToFile('security.log', $fileMessage);
         
@@ -86,9 +89,11 @@ class Logger {
             $sql = "INSERT INTO security_events (event_type, description, ip_address, user_agent, severity) 
                     VALUES (?, ?, ?, ?, ?)";
             $stmt = mysqli_prepare($this->db, $sql);
-            mysqli_stmt_bind_param($stmt, "sssss", $eventType, $description, $ip, $userAgent, $severity);
-            mysqli_stmt_execute($stmt);
-            mysqli_stmt_close($stmt);
+            if ($stmt) {
+                mysqli_stmt_bind_param($stmt, "sssss", $eventType, $description, $ip, $userAgent, $severity);
+                mysqli_stmt_execute($stmt);
+                mysqli_stmt_close($stmt);
+            }
         }
     }
     
