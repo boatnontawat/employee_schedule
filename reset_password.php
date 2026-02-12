@@ -13,23 +13,35 @@ $token = $_POST['token'] ?? $_GET['token'] ?? '';
 $error = '';
 $token_valid = false;
 $email = '';
+$expires_at = '';
 
 // 2. ตรวจสอบ Token ว่าถูกต้องและยังไม่หมดอายุหรือไม่
 if (empty($token)) {
     $error = "ไม่พบ Token หรือลิงก์ไม่ถูกต้อง";
 } else {
-    $sql = "SELECT email FROM password_resets WHERE token = ? AND expires_at > NOW()";
+    // [แก้ไข] ดึง expires_at ออกมาเช็คด้วย PHP แทนการใช้ NOW() ใน SQL
+    // เพื่อป้องกันปัญหา Timezone ของ Server ไม่ตรงกับเวลาไทย
+    $sql = "SELECT email, expires_at FROM password_resets WHERE token = ?";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, "s", $token);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_store_result($stmt);
     
     if (mysqli_stmt_num_rows($stmt) == 0) {
-        $error = "ลิงก์รีเซ็ตรหัสผ่านนี้ไม่ถูกต้องหรือหมดอายุแล้ว กรุณาขอลิงก์ใหม่";
+        $error = "ลิงก์รีเซ็ตรหัสผ่านนี้ไม่ถูกต้อง (ไม่พบ Token ในระบบ)";
     } else {
-        mysqli_stmt_bind_result($stmt, $email);
+        mysqli_stmt_bind_result($stmt, $email, $expires_at);
         mysqli_stmt_fetch($stmt);
-        $token_valid = true; // Token ถูกต้อง
+
+        // [แก้ไข] เปรียบเทียบเวลาด้วย PHP (ซึ่งตั้งเป็น Asia/Bangkok แล้วใน config.php)
+        // ถ้า expires_at เป็น String เช่น '2026-02-12 18:00:00' strtotime จะแปลงเป็น timestamp ให้
+        if (strtotime($expires_at) < time()) {
+            $error = "ลิงก์รีเซ็ตรหัสผ่านนี้หมดอายุแล้ว<br><small>(หมดอายุเมื่อ: $expires_at)</small>";
+            // Debug: ปลดคอมเมนต์บรรทัดล่างเพื่อดูเวลา Server ถ้ายังไม่ได้
+            // $error .= "<br><small>Server Time: " . date("Y-m-d H:i:s") . "</small>";
+        } else {
+            $token_valid = true; // Token ถูกต้องและยังไม่หมดอายุ
+        }
     }
     mysqli_stmt_close($stmt);
 }
