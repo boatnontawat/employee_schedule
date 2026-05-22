@@ -89,7 +89,7 @@ if ($report_type == 'attendance') {
             LEFT JOIN audit_logs al ON al.user_id = u.id AND al.action_type = 'late_checkin' AND DATE(al.created_at) = s.schedule_date
             WHERE s.schedule_date BETWEEN '$start_date' AND '$end_date'
             $dept_sql_condition
-            GROUP BY s.user_id, s.schedule_date
+            GROUP BY s.user_id, s.schedule_date, u.full_name, d.name, s.shift_type, al.severity
             ORDER BY s.schedule_date DESC, u.full_name ASC";
             
     $result = mysqli_query($conn, $sql);
