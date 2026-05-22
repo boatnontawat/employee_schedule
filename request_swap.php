@@ -108,6 +108,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             }
                         }
                         
+                        // แจ้งเตือน Target User (เพื่อนร่วมงานที่ถูกขอสลับ)
+                        if (function_exists('sendNotification')) {
+                            sendNotification($conn, $target_user_id, "คุณได้รับคำขอสลับเวรจาก {$_SESSION['full_name']} กรุณาตรวจสอบและตอบรับ", 'info');
+                        }
+                        
                          $sweet_alert = [
                              'icon' => 'success', 
                              'title' => 'ส่งคำขอเรียบร้อย', 
