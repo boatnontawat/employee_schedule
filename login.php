@@ -64,12 +64,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         
                         $logger->logUserAction('login', 'User logged in successfully', $id, 'users', $id, null, null, 'low');
                         
-                        if ($security->isPasswordExpired($password_changed_at) || $must_change_password) {
-                            $_SESSION['must_change_password'] = true;
-                            header("location: change_password.php");
-                            exit;
-                        }
-                        
                         if ($level == 'super_admin') {
                             header("location: ward_created.php");
                         } elseif ($level == 'admin') {
