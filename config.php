@@ -8,10 +8,13 @@
 // 2. Constants & Settings
 // ตั้งค่า Database (TiDB Cloud)
 define('DB_SERVER', 'gateway01.ap-southeast-1.prod.aws.tidbcloud.com');
-define('DB_USERNAME', '3WUQLTeLKsCs6W4.root');
-define('DB_PASSWORD', 'wknpq6pvH9P0rVdH');
-define('DB_NAME', 'test'); // หรือชื่อ DB ที่คุณใช้จริง
+define('DB_USERNAME', '4JhpmrGcPWALc5i.root');
+define('DB_PASSWORD', 'TYW7jWJ7CARPKVvu');
+define('DB_NAME', 'employee_schedule'); // หรือชื่อ DB ที่คุณใช้จริง
 define('DB_PORT', 4000);
+
+// ตั้งค่า SSL Certificate (TiDB Cloud)
+define('SSL_CA_PATH', __DIR__ . '/ssl/isrgrootx1.pem');
 
 // ตั้งค่า Path
 define('UPLOAD_PATH', __DIR__ . '/uploads/');
@@ -37,8 +40,9 @@ if (session_status() === PHP_SESSION_NONE) {
 // 4. Database Connection (TiDB Cloud requires SSL)
 $conn = mysqli_init();
 mysqli_options($conn, MYSQLI_OPT_CONNECT_TIMEOUT, 10);
-// ตั้งค่า SSL (จำเป็นสำหรับ TiDB)
-mysqli_ssl_set($conn, NULL, NULL, NULL, NULL, NULL);
+
+// ตั้งค่า SSL (จำเป็นสำหรับ TiDB) — ระบุ CA cert ที่ดาวน์โหลดจาก TiDB Cloud
+mysqli_ssl_set($conn, NULL, NULL, SSL_CA_PATH, NULL, NULL);
 
 // เชื่อมต่อจริง
 $connect_result = @mysqli_real_connect(
@@ -240,4 +244,3 @@ function customErrorHandler($errno, $errstr, $errfile, $errline) {
 }
 
 set_error_handler("customErrorHandler");
-
