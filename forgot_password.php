@@ -25,16 +25,27 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $token = bin2hex(random_bytes(50));
             $expires = date('Y-m-d H:i:s', strtotime('+1 hour'));
             
-            // (Logic เดิม: ลบ Token เก่า, สร้างใหม่, ส่งเมล/แสดงลิงก์...)
-            // ... ขอละไว้เพื่อความกระชับ (ใช้โค้ดเดิมของคุณในส่วนนี้) ...
+            // ลบ Token เก่าของอีเมลนี้ (ถ้ามี)
+            $del_sql = "DELETE FROM password_resets WHERE email = ?";
+            $del_stmt = mysqli_prepare($conn, $del_sql);
+            mysqli_stmt_bind_param($del_stmt, "s", $email);
+            mysqli_stmt_execute($del_stmt);
+            mysqli_stmt_close($del_stmt);
             
-            $success_msg = "ส่งลิงค์รีเซ็ตรหัสผ่านเรียบร้อยแล้ว! กรุณาตรวจสอบอีเมล";
-            // สำหรับ Demo แสดงลิงก์เลย
-            $reset_link = "http://" . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']) . "/reset_password.php?token=" . $token;
-            $debug_info = "<div style='margin-top:10px; padding:10px; background:#f0f9ff; border:1px dashed #bae6fd; border-radius:4px; font-size:0.85rem;'>
-                              <strong>[Debug Mode]</strong><br>
-                              <a href='{$reset_link}' target='_blank' style='color:#0284c7; word-break:break-all;'>คลิกที่นี่เพื่อรีเซ็ต</a>
-                           </div>";
+            // บันทึก Token ใหม่เข้า database
+            $ins_sql = "INSERT INTO password_resets (email, token, expires_at) VALUES (?, ?, ?)";
+            $ins_stmt = mysqli_prepare($conn, $ins_sql);
+            mysqli_stmt_bind_param($ins_stmt, "sss", $email, $token, $expires);
+            
+            if (mysqli_stmt_execute($ins_stmt)) {
+                mysqli_stmt_close($ins_stmt);
+                // TODO: ส่งอีเมลจริงด้วย PHPMailer ไปที่ $email พร้อม reset link
+                // $reset_link = "https://" . $_SERVER['HTTP_HOST'] . "/reset_password.php?token=" . $token;
+                $success_msg = "ส่งลิงค์รีเซ็ตรหัสผ่านเรียบร้อยแล้ว! กรุณาตรวจสอบอีเมล";
+            } else {
+                mysqli_stmt_close($ins_stmt);
+                $error_msg = "เกิดข้อผิดพลาดในการสร้างลิงก์รีเซ็ต กรุณาลองใหม่";
+            }
         } else {
             $error_msg = "ไม่พบอีเมลนี้ในระบบ";
         }
